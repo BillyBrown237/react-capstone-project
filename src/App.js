@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/common/Navbar'
+import Routing from './components/common/Routing'
+import Footer from './components/common/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <h1>React Meta Capstone Project</h1>
-    </div>
+    <>
+    <Navbar />
+    <Routing />
+    <Footer />
+    </>
   );
 }
 
